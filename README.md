@@ -5,9 +5,8 @@ Non-Newtonian Temporal Narratives in Media.
 Software requirements are outlined in requirements.txt.
 
 1. Download this GitHub repository.
-2. On Terminal/Command Line, navigate to the folder for this repository on your local machine.  Do NOT navigate away from this folder.
+2. On Terminal/Command Line, navigate to the folder for this repository on your local machine.  Run "python -m venv .venv".  Do NOT navigate away from this folder.
 3. On Terminal/Command Line, run "pip install -r requirements.txt".
-4. On Terminal/Command Line, run "python -m venv .venv" -- this creates a virtual environement.
 5. Go to wide_time_chaotic.py and change the input and output file names.
 7. On Terminal/Command Line, run "python wide_time_chaotic.py".
 
