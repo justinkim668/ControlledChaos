@@ -16,6 +16,6 @@ This script implements a non-linear temporal remapping algorithm. It iterates th
 
 # Future Work
 Future work will focus on the following:
-1. Optimize Logistic Map code for $O(N)$ time.
-2. Port this Python logic over to GLSL fragment shaders.
-3. Extend this logic to higher-dimensional chaotic maps like the Lorenz System.
+1. Algorithmic Optimization: Optimize Logistic Map code for $O(N)$ time to eliminate redundant recursive calls.
+2. GPU Acceleration: Port the iterative Python logic and frame-blending math to GLSL fragment shaders to enable real-time chaotic remapping of 4K video streams.
+3. Multi-Dimensional Chaos: Extend this logic to higher-dimensional chaotic maps like the Lorenz System.
