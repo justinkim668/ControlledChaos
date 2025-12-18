@@ -11,6 +11,14 @@ Non-Newtonian Temporal Narratives in Media.
 5. Configure `wide_time_chaotic.py`: Update `clip` and `final_clip` paths.
 6. Run the script: `python wide_time_chaotic.py`
 
+#Technical Summary
+This script implements a non-linear temporal remapping algorithm. It iterates through the Logistic Map ($x_{n+1} = r x_n (1 - x_n)$),
+
+Where:
+\begin{itemize}
+    \item $x_n$ controls the magnitude of the time shift that can be applied to generate motion effects at a given time in the context of this work (0.0 to 1.0).
+    \item $r$ is the control parameter ($1.0 < r \leq 4.0$).
+
 # Future Work
 Future work will focus on the following:
 1. Optimize Logistic Map code for $O(N)$ time.
