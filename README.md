@@ -2,13 +2,14 @@
 Non-Newtonian Temporal Narratives in Media.
 
 # Installation/Use
-Software requirements are outlined in requirements.txt.
-
-1. Download this GitHub repository.
-2. On Terminal/Command Line, navigate to the folder for this repository on your local machine.  Run "python -m venv .venv".  Do NOT navigate away from this folder.
-3. On Terminal/Command Line, run "pip install -r requirements.txt".
-5. Go to wide_time_chaotic.py and change the input and output file names.
-7. On Terminal/Command Line, run "python wide_time_chaotic.py".
+1. Clone the repository and navigate to the root directory.
+2. Create a virtual environment: `python -m venv .venv`
+3. Activate the environment:
+   - macOS/Linux: `source .venv/bin/activate`
+   - Windows: `.venv\Scripts\activate`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Configure `wide_time_chaotic.py`: Update `clip` and `final_clip` paths.
+6. Run the script: `python wide_time_chaotic.py`
 
 # Future Work
 Future work will focus on the following:
